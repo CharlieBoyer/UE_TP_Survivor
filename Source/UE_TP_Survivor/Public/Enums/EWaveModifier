@@ -1,0 +1,11 @@
+﻿// Charlie BOYER
+
+#pragma once
+
+UENUM(meta=(Bitflags, UseEnumValuesAsMaskValuesInEditor="true"))
+enum class EWaveModifier: uint8
+{
+    NONE = 0,
+    UNIFORM = 1,
+    INVASION = 2
+};
