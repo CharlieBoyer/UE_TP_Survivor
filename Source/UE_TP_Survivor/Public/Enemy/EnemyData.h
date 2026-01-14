@@ -2,10 +2,6 @@
 
 #pragma once
 
-#include "EnemyData.generated.h"
-
-USTRUCT()
-struct FEnemyData
+struct EnemyData
 {
-	GENERATED_BODY()
 };
