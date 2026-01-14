@@ -1,7 +1,7 @@
 ﻿// Charlie BOYER - ENSI
 
 
-#include "UE_TP_Survivor/Public/Player/Avatar.h"
+#include "Player/Avatar.h"
 
 
 // Sets default values
@@ -29,4 +29,3 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 }
-

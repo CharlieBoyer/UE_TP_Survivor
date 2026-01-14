@@ -6,7 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Avatar.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class UE_TP_SURVIVOR_API AAvatar : public ACharacter
 {
 	GENERATED_BODY()
