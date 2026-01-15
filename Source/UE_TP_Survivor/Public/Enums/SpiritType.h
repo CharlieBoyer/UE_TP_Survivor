@@ -3,13 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ESpiritLabel.generated.h"
+#include "SpiritType.generated.h"
 
 UENUM(meta=(Bitflags, UseEnumValuesAsMaskValuesInEditor="true"))
-enum class ESpiritLabel: uint8
+enum class ESpiritType: uint8
 {
 	FORCE = 1,
 	WISDOM = 2,
 	COURAGE = 4,
 	NEUTRAL = FORCE | WISDOM | COURAGE
 };
+
+ENUM_CLASS_FLAGS(ESpiritType)

@@ -4,10 +4,13 @@
 #include "Weapons/WeaponBase.h"
 
 
-FWeaponBase::FWeaponBase()
-{
-}
+FWeaponBase::FWeaponBase() : _data() {}
 
-FWeaponBase::~FWeaponBase()
+FWeaponBase::FWeaponBase(const FWeaponData& InData) : _data(InData) {}
+
+FWeaponBase::~FWeaponBase() {}
+
+FWeaponData FWeaponBase::GetData() const
 {
+	return _data;
 }

@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ERarity.generated.h"
+#include "Rarity.generated.h"
 
 UENUM(BlueprintType)
 enum class ERarity: uint8

@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "EWaveModifier.generated.h"
+#include "WaveModifier.generated.h"
 
 UENUM(meta=(Bitflags, UseEnumValuesAsMaskValuesInEditor="true"))
 enum class EWaveModifier: uint8
